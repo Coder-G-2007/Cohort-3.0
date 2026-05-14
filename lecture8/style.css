@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* #box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 0, 0);
+}
+
+@media (max-width:300px) {
+    #box{
+        background-color: aqua;
+        height: 100px;
+        width: 100%;
+        border-radius: 25%;
+    }
+} */
+
+/* #nav{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(58, 224, 147, 0.695);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 20px;
+}
+#part2{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+h5{
+ display: none;
+}
+@media (max-width:400px) {
+    #nav{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(58, 224, 147, 0.695);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 20px;
+}
+#part2{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    display: none;
+}
+h5{
+ display: block;
+ padding: 20px;
+}
+} */
+
+/* #box{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+   animation-name: name;
+   animation-duration: 2s ;
+   animation-delay: 1s;
+}
+
+@keyframes name{
+    from{
+        left: 0;
+        background-color: red;
+        rotate: 0;
+        border-radius: 0;
+    }
+    to{
+        left: 60%;
+        background-color: blue;
+        rotate: 360deg;
+        border-radius: 50%;
+    }
+} */
+
+img{
+    height: 400px;
+    position: absolute;
+    animation: dora;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+img:hover{
+animation-play-state: paused;
+}
+@keyframes dora {
+    0%{
+        padding: 70px;
+        left: 0;
+        top: 0;
+    }
+    25%{
+        rotate: 360deg;
+        padding: 70px;
+        left: 70%;
+        top: 0;
+    }
+    50%{
+        rotate: 0deg;
+        padding: 70px;
+        left: 70%;
+        top: 70%;
+    }
+    75%{
+        rotate: 360deg;
+        padding: 70px;
+         left: 0;
+        top: 70%;
+    }
+    100%{
+        rotate: 0deg;
+        padding: 70px;
+        left: 0;
+        top: 0;
+    }
+}
+.parent{
+    background-color: crimson;
+    display: flex;
+}
+#inner{
+    background-color: aqua;
+    font-size: 60px;
+    display: flex;
+    animation: marqtag;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    gap: 20px;
+    padding: 0 20px;
+}
+@keyframes marqtag {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
