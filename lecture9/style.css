@@ -1,0 +1,151 @@
+/* Css variables used at the top only as per priority */
+/* :root{
+    --king:rgb(221, 213, 55);
+    --queen:rgb(249, 105, 129);
+    --pad-btn:10px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* body{
+    background-color:black;
+} */
+/* h1{
+    color: crimson;
+    font-size: 50px;
+}
+h1::after{
+    content: " I am pseudo class after";
+    font-size: 25px;
+}
+#box::before{
+    content: "I am pseudo class before ";
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+} */
+
+/* nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    gap: 10px;
+}
+h4{
+    font-size: 40px;
+    border-bottom: 2px solid transparent;
+    position: relative;
+} */
+/* h4:hover{
+      border-bottom: 4px solid white;
+} */
+/* h4::after{
+    content: "";
+    height: 4px;
+    width: 0%;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all ease 0.6s;
+    background-color: red;
+}
+h4:hover::after{
+    width: 100%;
+} */
+/* button{
+    height: 100px;
+    width: 250px;
+    color: orangered;
+    border:4px solid orangered;
+    margin-left: 200px;
+    margin-top: 200px;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: 600px;
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+} */
+/* button::after{
+    content: "";
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    z-index: -1;
+    background-color: rgb(113, 39, 183);
+    transition: all ease 0.5s;
+}
+button:hover::after{
+    width: 100%;
+} */
+/* button::after{
+    content: "";
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    border-radius: 50%;
+    z-index: -1;
+    background-color:orangered;
+    transition: all ease 0.5s;
+    transform:translate(-50%,-50%) scale(0);
+}
+button:hover::after{
+  transform:translate(-50%,-50%) scale(3.5);
+}
+button:hover{
+    color: white;
+} */
+ 
+
+/* h2,p{
+    color: white;
+}
+button{
+    background-color: var(--king);
+    padding: var(--pad-btn);
+}
+h2 span{
+    color: var(--king);
+    padding: var(--pad-btn);
+}
+p span{
+    color: var(--king);
+    padding: var(--pad-btn);
+} */
+
+/* tailwind css */
+
+.red{
+    color: rgb(221, 29, 29);
+}
+.blue{
+    color: rgb(63, 63, 157);
+}
+.green{
+    color: rgb(113, 215, 113);
+}
+.large{
+ font-size: 40px;
+}
+.small{
+    font-size: 20px;
+}
