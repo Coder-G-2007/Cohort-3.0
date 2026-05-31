@@ -510,6 +510,7 @@ html,body{
       "bottomright bottomright"
       "menubar menubar";
     width: 100%;
+    margin-left: 0%;
     position: relative;
   }
 .topleft span{
