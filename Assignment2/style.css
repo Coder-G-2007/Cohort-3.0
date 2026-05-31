@@ -509,8 +509,7 @@ html,body{
       "bottomcenter2 bottomcenter2"
       "bottomright bottomright"
       "menubar menubar";
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
     position: relative;
   }
 .topleft span{
