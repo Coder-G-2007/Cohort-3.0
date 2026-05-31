@@ -480,40 +480,39 @@ html,body{
     display: flex;
     gap: 30px;
 }
-.content{
-    border-top: 1px solid rgb(220, 220, 220);
+.content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-   grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr; /* or 1fr for single column */
+    grid-template-rows: 
+      minmax(80px, auto) minmax(80px, auto) minmax(80px, auto) minmax(80px, auto) minmax(80px, auto)
+      minmax(100px, auto) minmax(80px, auto) minmax(80px, auto) minmax(80px, auto) minmax(120px, auto)
+      minmax(90px, auto) minmax(90px, auto) minmax(90px, auto) minmax(90px, auto) minmax(100px, auto)
+      minmax(80px, auto) minmax(80px, auto) minmax(80px, auto) minmax(80px, auto) minmax(100px, auto);
     grid-template-areas:
-    "centera centera"
-    "centera centera "
-    "centera centera "
-    "centera centera "
-    "centera centera "
-    "topleft colour"
-    "mid1left colour"
-    "topright colour"
-    "topright colour"
-    "desc desc"
-    "mid3left mid3left"
-    "mid3center1 mid3center1"
-    "mid3center2 mid3center2"
-    "mid3right mid3right"
-    "btn btn"
-    "bottomleft bottomleft"
-    "bottomcenter1 bottomcenter1" 
-    "bottomcenter2 bottomcenter2" 
-    "bottomright bottomright"
-     "menubar menubar ";
-    min-width:767px ;
-    position: absolute;
-    left: 3%;
-    .topleft{ grid-area: topleft; 
-        border:none;
-font-size: 25px;
-font-weight: bold;
-}
+      "centera centera"
+      "centera centera"
+      "centera centera"
+      "centera centera"
+      "centera centera"
+      "topleft colour"
+      "mid1left colour"
+      "topright colour"
+      "topright colour"
+      "desc desc"
+      "mid3left mid3left"
+      "mid3center1 mid3center1"
+      "mid3center2 mid3center2"
+      "mid3right mid3right"
+      "btn btn"
+      "bottomleft bottomleft"
+      "bottomcenter1 bottomcenter1"
+      "bottomcenter2 bottomcenter2"
+      "bottomright bottomright"
+      "menubar menubar";
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
 .topleft span{
     font-size: 15px;
     color: rgb(243, 121, 76);
@@ -561,6 +560,7 @@ border:none;
      margin-left:0px;
 }
 .mid1left    { grid-area: mid1left;
+margin-top: 25px;
 font-size: 25px;
 font-weight: bolder; 
 border: none;
