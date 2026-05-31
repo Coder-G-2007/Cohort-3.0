@@ -438,7 +438,7 @@ html,body{
 .submain{
     background-color: transparent;
     height: 98%;
-    width: 95%;
+    width: 98%;
     position: absolute;
     border-radius: 25px;
     left: 0%;
@@ -509,7 +509,7 @@ html,body{
       "bottomcenter2 bottomcenter2"
       "bottomright bottomright"
       "menubar menubar";
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     position: relative;
   }
