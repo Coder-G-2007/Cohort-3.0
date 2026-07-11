@@ -19,8 +19,8 @@ console.table(['Swatantra','Harsh','Krrish']) array in form of table
 
 Server:give request response to the client
 two types of rendering:
-client side:data get loaded on client side computerby the browser
-server side:loading of data give better seo
+client side rendering:data get loaded on client side computerby the browser
+server side rendering :loading of data give better seo
 
 variables:for storage of data acts as a type of container
 
@@ -51,14 +51,14 @@ function
 typeof:are used to know datatypes of variable
 
 alert:tumko jawab dega
-confirm:tumse confirm karega aur tum use store bhi kara shakte ho
+confirm:tumse confirm karega aur tum use store bhi kara shakte ho 
 prompt:user se sawal puchte ho wo jawab deta hai
 dhyan rhe name ek reserve keyword hai
 
 alert('This is message soch samaj ke agge badhna')
 
 var ans=confirm('Are you Swatantra singh?')
-console.log(ans)
+console.log(ans) (okay==True,cancel==False)
 
 var user=prompt('Are you Swatantra singh?')
 console.log(user);

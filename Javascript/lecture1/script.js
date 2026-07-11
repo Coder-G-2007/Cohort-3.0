@@ -23,7 +23,7 @@ console.log(d);
 var e=null
 console.log(e);
 
-var f=10n
+var f=10n //for BigInt
 console.log(typeof(f));
 
 var g=Symbol('hi')
