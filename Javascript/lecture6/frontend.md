@@ -38,7 +38,7 @@ select.length change ho shakti hai,sirf amtching element hoge
 
 reduce--reduce
 hamare array ko ek simple single value me convert kar dega,largest,smallest,sum
-arr10=arr.reduce(function(accumulator,initial value))
+arr10=arr.reduce(function(accumulator,value),initial value of accumulator)
 
 arr.reduce(function(acc,value){
 },initial value of acc)
