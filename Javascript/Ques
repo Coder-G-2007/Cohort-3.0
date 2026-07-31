@@ -1,0 +1,157 @@
+// sheet pahse 2 solution
+var obj={
+    name:'Swatantra',
+    age:19,
+    course:'Cohort 3.0'
+}
+console.log(obj)
+
+const car = {
+  brand: "BMW",
+  model: "M4",
+  year: 2022
+}
+console.log(car.brand)
+console.log(car.model)
+console.log(car["brand"])
+console.log(car["model"])
+
+// const user = {
+//   name: "Anubhav",
+//   age: 20
+// }
+// user.age=25
+// console.log(user)
+// user.isAdmin=true
+// console.log(user)
+
+const account = {
+  username: "john",
+  password: "12345"
+}
+delete account.password
+console.log(account)
+
+var countProperties={a:1,b:2,c:3}
+console.log(Object.keys(countProperties))
+function count(countProperties){
+    return Object.keys(countProperties).length
+}
+var out=count(countProperties)
+console.log(out)
+
+const person = {
+  name: "Rahul",
+  age: 22,
+  city: "Delhi"
+}
+
+for(let key in person){
+    console.log(key,':',person[key])
+} 
+
+console.log("email" in person)
+
+const obj1 = { a: 1, b: 2 }
+const obj2 = { c: 3, d: 4 }
+const obj3={...obj1,...obj2}
+console.log(obj3)
+
+const user = {
+  name: "Aman",
+  age: 21
+}
+var arr=Object.entries(user)
+console.log(arr)
+
+const marks = {
+  Anubhav: 95,
+  Rahul: 82,
+  Aman: 90
+}
+var c=0
+var d
+const a=function(mark){
+  for(let keys in mark){
+      if(mark[keys]>c){
+          c=mark[keys]
+          d=keys
+      }
+  }   
+  return d
+}
+console.log(a(marks))
+
+const salaries = {
+  john: 1000,
+  alex: 2000,
+  bob: 1500
+}
+var arr=Object.values(salaries)
+
+var sum=0
+for(let value in arr){
+    sum=sum+arr[value]
+}
+console.log(sum)
+
+const user1 = {
+  name: "Anubhav",
+  address: {
+    city: "Bhopal",
+    pincode: 462001
+  }
+}
+console.log(user1.address.city)
+console.log(user1.address.pincode)
+
+var result={
+    name:'Swatantra',
+    marks:33,
+    getresult:()=>{
+        if(result.marks>40){
+            console.log('Pass')
+        }
+        else{
+            console.log('Fail')
+        }
+    }
+}
+result.getresult()
+
+const arr3= ["name", "Anubhav", "age", 24]
+const obj4={...arr3}
+console.log(obj4)
+
+const str='banana'
+const freqcount={}
+for(const char of str){
+    freqcount[char]=(freqcount[char]||0)+1
+}
+console.log(freqcount)
+
+const users = [
+  { name: "A", age: 20 },
+  { name: "B", age: 21 },
+  { name: "C", age: 20 }
+]
+console.log(Object.groupBy(users,users=>users.age))
+
+var obj6={a:1,b:2}
+var obj7={a:1,b:2}
+console.log(JSON.stringify(obj6) === JSON.stringify(obj7));
+
+var arr10=[
+  {id:1,name:"A"},
+  {id:2,name:"B"},
+  {id:1,name:"A"}
+]
+for(let i=0;i<arr10.length;i++){
+    for(let j=i+1;j<arr10.length;j++){
+        if(arr10[i].id == arr10[j].id){
+            arr10.splice(j,1)
+            j--
+        }
+    }
+}
+console.log(arr10)
