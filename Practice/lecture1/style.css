@@ -135,3 +135,89 @@ nav .header{
  height: 80px;
  width: 150px;
 }
+#section2{
+    height: 100%;
+    width: 100%;
+}
+#upper{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-evenly;
+}
+.interior{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#upper .interior .flatdesign{
+    width: 40%;
+    background-image: cover;
+    margin-top: 2.5%;
+}
+#upper .flatdesign img{
+    height: 90%;
+    width: 100%;
+    border-radius: 25px;
+    align-items: center;
+}
+.text1{
+    display:flex ;
+    justify-content: space-between;
+    margin-top: 5%;
+    color: #C5C5C5;
+    font-size: medium;
+}
+.text1 h6{
+    color: rgb(40, 40, 40);
+    font-size: 12px;
+}
+#flatdesign{
+    width: 50%;
+    height: 100%;
+    background-color: #FBFBFB;
+    border-radius: 25px;
+    display: flex;
+}
+#flatdesign .content{
+    margin-left: 5%;
+}
+#flatdesign img{
+    height: 80%;
+    border-radius: 25px;
+    margin-left: 7%;
+   margin-top: 5%;
+}
+#flatdesign .content span{
+    color: #C5C5C5;
+    display: block; 
+    margin-top: 40px;
+}
+#flatdesign .content h5{
+    font-size: 30px;
+    margin-top: 20px;
+}
+#flatdesign .content button{
+    margin-top: 30%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+#flatdesign .content button i{
+   border-radius: 50%;
+   color: white;
+   background-color: black;
+}
+#lower{
+    width: 100%;
+    text-align: center;
+}
+#lower h2{
+    margin-top: 10%;
+   color: #C5C5C5;
+}
+#lower h1{
+    font-size: 100px;
+}
